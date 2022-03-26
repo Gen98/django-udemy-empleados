@@ -27,6 +27,7 @@ DATABASES = {
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR.child('static')]        # Archivos estaticos
+STATIC_ROOT = BASE_DIR.child('staticfiles')
 
 MEDIA_URL = '/media/' #prefijo del url web de todas las imagenes
 MEDIA_ROOT = BASE_DIR.child('media') #carpeta donde se ubicaran los archivos
